@@ -1,0 +1,28 @@
+0x00001199 <+0>:	lea    ecx,[esp+0x4]
+   0x0000119d <+4>:	and    esp,0xfffffff0
+   0x000011a0 <+7>:	push   DWORD PTR [ecx-0x4]
+   0x000011a3 <+10>:	push   ebp
+   0x000011a4 <+11>:	mov    ebp,esp
+   0x000011a6 <+13>:	push   ebx
+   0x000011a7 <+14>:	push   ecx
+   0x000011a8 <+15>:	sub    esp,0x10
+   0x000011ab <+18>:	call   0x10a0 <__x86.get_pc_thunk.bx>
+   0x000011b0 <+23>:	add    ebx,0x2e50
+   0x000011b6 <+29>:	mov    DWORD PTR [ebp-0xc],0x0
+   0x000011bd <+36>:	jmp    0x11d8 <main+63>
+   0x000011bf <+38>:	sub    esp,0x8
+   0x000011c2 <+41>:	push   DWORD PTR [ebp-0xc]
+   0x000011c5 <+44>:	lea    eax,[ebx-0x1ff8]
+   0x000011cb <+50>:	push   eax
+   0x000011cc <+51>:	call   0x1030 <printf@plt>
+   0x000011d1 <+56>:	add    esp,0x10
+   0x000011d4 <+59>:	add    DWORD PTR [ebp-0xc],0x1
+   0x000011d8 <+63>:	cmp    DWORD PTR [ebp-0xc],0x9
+   0x000011dc <+67>:	jle    0x11bf <main+38>
+   0x000011de <+69>:	mov    eax,0x0
+   0x000011e3 <+74>:	lea    esp,[ebp-0x8]
+   0x000011e6 <+77>:	pop    ecx
+   0x000011e7 <+78>:	pop    ebx
+   0x000011e8 <+79>:	pop    ebp
+   0x000011e9 <+80>:	lea    esp,[ecx-0x4]
+   0x000011ec <+83>:	ret

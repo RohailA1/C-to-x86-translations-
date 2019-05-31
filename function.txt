@@ -1,0 +1,28 @@
+   0x00001199 <+0>:	lea    ecx,[esp+0x4]
+   0x0000119d <+4>:	and    esp,0xfffffff0
+   0x000011a0 <+7>:	push   DWORD PTR [ecx-0x4]
+   0x000011a3 <+10>:	push   ebp
+   0x000011a4 <+11>:	mov    ebp,esp
+   0x000011a6 <+13>:	push   ebx
+   0x000011a7 <+14>:	push   ecx
+   0x000011a8 <+15>:	call   0x10a0 <__x86.get_pc_thunk.bx>
+   0x000011ad <+20>:	add    ebx,0x2e53
+   0x000011b3 <+26>:	sub    esp,0xc
+   0x000011b6 <+29>:	push   0x3
+   0x000011b8 <+31>:	call   0x11e2 <x>
+   0x000011bd <+36>:	add    esp,0x10
+   0x000011c0 <+39>:	sub    esp,0x8
+   0x000011c3 <+42>:	push   eax
+   0x000011c4 <+43>:	lea    eax,[ebx-0x1ff8]
+   0x000011ca <+49>:	push   eax
+   0x000011cb <+50>:	call   0x1030 <printf@plt>
+   0x000011d0 <+55>:	add    esp,0x10
+   0x000011d3 <+58>:	mov    eax,0x0
+   0x000011d8 <+63>:	lea    esp,[ebp-0x8]
+   0x000011db <+66>:	pop    ecx
+   0x000011dc <+67>:	pop    ebx
+   0x000011dd <+68>:	pop    ebp
+   0x000011de <+69>:	lea    esp,[ecx-0x4]
+   0x000011e1 <+72>:	ret    
+End of assembler dump.
+

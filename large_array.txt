@@ -1,0 +1,11 @@
+   0x00001189 <+0>:	push   ebp
+   0x0000118a <+1>:	mov    ebp,esp
+   0x0000118c <+3>:	sub    esp,0x50
+   0x0000118f <+6>:	call   0x11b5 <__x86.get_pc_thunk.ax>
+   0x00001194 <+11>:	add    eax,0x2e6c
+   0x00001199 <+16>:	mov    DWORD PTR [ebp-0x44],0x14
+   0x000011a0 <+23>:	mov    DWORD PTR [ebp-0x40],0x18
+   0x000011a7 <+30>:	mov    DWORD PTR [ebp-0x3c],0x1c
+   0x000011ae <+37>:	mov    eax,0x0
+   0x000011b3 <+42>:	leave  
+   0x000011b4 <+43>:	ret 
